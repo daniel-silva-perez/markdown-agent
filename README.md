@@ -1,5 +1,9 @@
 # markdown-agent
 
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repo-181717?logo=github&logoColor=white)](https://github.com/daniel-silva-perez/markdown-agent)
+[![GitLab Repo](https://img.shields.io/badge/GitLab-Repo-FC6D26?logo=gitlab&logoColor=white)](https://gitlab.com/danielsilvaperez/markdown-agent)
+[![Python CLI](https://img.shields.io/badge/Python-CLI-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+
 AI-assisted documentation maintenance for codebases that use `AGENTS.md`, `CLAUDE.md`, and `GEMINI.md`.
 
 `markdown-agent` watches what changed in a repo, decides whether the diff is meaningful enough to matter, and then updates the relevant sections of your instruction files instead of forcing you to rewrite them by hand after every refactor.
